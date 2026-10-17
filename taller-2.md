@@ -77,7 +77,7 @@ function BotonSesion({ usuarioConectado }) {
 }
 ```
 
-En la versión de React no se le indica al navegador cómo buscar ni cómo alterar elementos manualmente, sino que simplemente se define el resultado visual dependiente del estado.
+En la versión de React no se le indica al navegador cómo buscar ni cómo alterar elementos manualmente, sino que simplemente se define el resultado visual dependiente del estado [5].
 
 
 ### Cómo ayuda React a mantener la interfaz sincronizada con los datos
@@ -293,7 +293,7 @@ El uso de React por parte de empresas tecnológicas es debido en gran medida a s
 
 Cuando una organización cuenta muchos ingenieros colaborando en una misma plataforma web, mantener archivos tradicionales de HTML y JavaScript resulta inviable. Con React, el producto se descompone en módulos pequeños y autónomos. Cada equipo puede responsabilizarse de una sección específica (por ejemplo, el módulo de facturación, el catálogo de productos o el sistema de autenticación) sin generar interferencias en el repositorio común.
 
-Asimismo, la optimización que ofrece el Virtual DOM permite construir aplicaciones de respuesta instantánea y transiciones suaves, lo cual resulta crítico para la retención de usuarios en plataformas de comercio electrónico. Además, la predictibilidad de los componentes funcionales simplifica la implementación de pruebas automatizadas que aseguran la estabilidad del sistema ante nuevas versiones.
+Asimismo, la optimización que ofrece el Virtual DOM permite construir aplicaciones de respuesta instantánea y transiciones suaves, lo cual resulta crítico para la retención de usuarios en plataformas de comercio electrónico. Además, la predictibilidad de los componentes funcionales simplifica la implementación de pruebas automatizadas que aseguran la estabilidad del sistema ante nuevas versiones [13].
 
 
 ### ¿Qué aporta React al ecosistema de desarrollo?
@@ -302,14 +302,14 @@ React impulsó una transformación estructural en el desarrollo web moderno, sir
 
 A partir de su modelo de componentes surgieron frameworks de producción como Next.js y Remix. Estas herramientas potencian a React añadiendo renderizado en el servidor (Server-Side Rendering o SSR) y generación de sitios estáticos (Static Site Generation o SSG), lo que resuelve los tiempos de carga inicial y permite una indexación óptima por parte de los motores de búsqueda para posicionamiento SEO.
 
-De igual forma, la necesidad de procesar JSX y optimizar paquetes impulsó el desarrollo de herramientas de compilación modernas y de alto rendimiento como Vite y Turbopack. Además, los mismos principios conceptuales de React se extendieron al desarrollo móvil mediante React Native, permitiendo construir aplicaciones nativas tanto para Android como para iOS utilizando la misma base de conocimiento y lógica de componentes.
+De igual forma, la necesidad de procesar JSX y optimizar paquetes impulsó el desarrollo de herramientas de compilación modernas y de alto rendimiento como Vite y Turbopack. Además, los mismos principios conceptuales de React se extendieron al desarrollo móvil mediante React Native, permitiendo construir aplicaciones nativas tanto para Android como para iOS utilizando la misma base de conocimiento y lógica de componentes [1], [4].
 
 
 ### ¿Qué papel juegan su comunidad y su mantenimiento?
 
 El sostenimiento y la vigencia de React esta respaldado por grandes empresas y tambien cuenta con el apoyo de la comunidad de codigo abierto. La librería es coordinada y mantenida de forma continua por un equipo de ingenieros dedicados dentro de Meta, en colaboración con organizaciones de infraestructura web como Vercel y una extensa red global de desarrolladores independientes.
 
-Al contar con una de las comunidades más activas del software libre, el registro de paquetes npm dispone de miles de soluciones probadas que abarcan librerías de diseño, gestión de formularios, animaciones y componentes accesibles. Del mismo modo, cualquier duda técnica o error común cuenta con abundante documentación oficial traducida, tutoriales actualizados y soporte colaborativo en foros especializados.
+Al contar con una de las comunidades más activas del software libre, el registro de paquetes npm dispone de miles de soluciones probadas que abarcan librerías de diseño, gestión de formularios, animaciones y componentes accesibles. Del mismo modo, cualquier duda técnica o error común cuenta con abundante documentación oficial traducida, tutoriales actualizados y soporte colaborativo en foros especializados [3],[13].
 
 
 ### ¿Por qué es una habilidad relevante para un desarrollador frontend hoy en día?
@@ -327,7 +327,7 @@ Dos de los casos más representativos a nivel mundial que demuestran la capacida
 ### 1. Meta (Facebook e Instagram)
 
 En qué producto o sección lo usan:
-Meta utiliza React en las partes más críticas e interactivas de sus plataformas principales. En Facebook, la librería se encarga de gestionar el muro de noticias (News Feed), la bandeja de entrada de mensajes de Messenger en la versión web, el sistema de notificaciones en tiempo real y el panel publicitario para empresas llamado Meta Ads Manager. De igual manera, la versión web completa de la red social Instagram está desarrollada utilizando los componentes de React.
+Meta utiliza React en las partes más críticas e interactivas de sus plataformas principales. En Facebook, la librería se encarga de gestionar el muro de noticias (News Feed), la bandeja de entrada de mensajes de Messenger en la versión web, el sistema de notificaciones en tiempo real y el panel publicitario para empresas llamado Meta Ads Manager. De igual manera, la versión web completa de la red social Instagram está desarrollada utilizando los componentes de React [14].
 
 Por qué es un caso relevante:
 Este caso es el más relevante de todos porque Meta es la cuna donde nació la tecnología. Hacia los años 2010 y 2011, los ingenieros de Facebook estaban teniendo dificultades serias para sincronizar las notificaciones de chat y las reacciones con millones de personas conectadas simultáneamente. Con frecuencia la campana de notificaciones mostraba mensajes no leídos cuando el chat ya estaba abierto, o la interfaz quedaba desactualizada. La implementación de React permitió manejar miles de cambios de datos concurrentes sin perder la coherencia visual. Al probar que React era capaz de operar con éxito ante la escala de Facebook e Instagram, se demostró ante la industria que el modelo de componentes declarativos y el Virtual DOM eran aptos para plataformas de máxima exigencia [14].
@@ -336,7 +336,7 @@ Este caso es el más relevante de todos porque Meta es la cuna donde nació la t
 ### 2. Airbnb (Plataforma mundial de reservas y alojamiento)
 
 En qué producto o sección lo usan:
-Airbnb implementa React en la totalidad de su plataforma web pública (airbnb.com). La librería está presente en el motor interactivo de búsqueda de hospedajes con mapas interactivos, en los calendarios dinámicos para consultar disponibilidad de fechas en tiempo real, en el proceso de reserva y pago en línea (checkout), y en el panel de administración que utilizan los anfitriones para gestionar sus propiedades y precios.
+Airbnb implementa React en la totalidad de su plataforma web pública (airbnb.com). La librería está presente en el motor interactivo de búsqueda de hospedajes con mapas interactivos, en los calendarios dinámicos para consultar disponibilidad de fechas en tiempo real, en el proceso de reserva y pago en línea (checkout), y en el panel de administración que utilizan los anfitriones para gestionar sus propiedades y precios [15].
 
 Por qué es un caso relevante:
 Porque Airbnb fue una de las primeras grandes compañías de comercio electrónico y viajes que decidió migrar todo su sistema frontend a React. Antes de realizar esta modernización, la plataforma presentaba lentitud cuando los usuarios cambiaban fechas o aplicaban múltiples filtros de búsqueda sobre miles de alojamientos disponibles. Al implementar React junto a su modelo de componentes, lograron que las búsquedas, los filtros y la navegación entre habitaciones fueran prácticamente instantáneos sin recargar la pantalla, elevando las tasas de reserva completadas y mejorando la satisfacción de los viajeros en todo el mundo. Asimismo, la modularidad de los componentes le permitió a sus equipos de ingeniería mantener una interfaz consistente y sincronizada a gran escala en bastante idiomas y monedas [15].
